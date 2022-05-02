@@ -380,8 +380,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 3em;
+  padding-bottom: 0em;
   clear: both;
   width: 100%;
   display: block; }
@@ -405,7 +405,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -941,7 +941,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #5BB626;
+    background: #00000074;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -953,7 +953,7 @@ body.offcanvas {
       height: 300px; }
       .project .desc .con .icon {
         position: absolute;
-        bottom: 20px;
+        bottom: 5px;
         left: 20px;
         right: 20px; }
         .project .desc .con .icon span {
@@ -989,8 +989,8 @@ body.offcanvas {
         color: #fff; }
     .project .desc span {
       display: block;
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 13px;
+      color: rgba(255, 255, 255, 1);
+      font-size: 15px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
